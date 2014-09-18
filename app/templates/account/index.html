@@ -1,0 +1,27 @@
+<div class="row" ng-controller="AccountController" ng-method="">
+	<h3 class="col-md-12 text-center">Account</h3>
+
+	<div class="col-xs-offset-2 col-xs-8 col-md-offset-5 col-md-2">
+		<form name="userForm" ng-submit="update()" class="form-horizontal" novalidate autocomplete="off">
+			<fieldset>
+				<div class="form-group">
+					<label for="first_name">First Name</label>
+					<input type="text" required id="first_name" name="first_name" class="form-control" ng-model="account.index.first_name" placeholder="First Name">
+				</div>
+				<div class="form-group">
+					<label for="last_name">Last Name</label>
+					<input type="text" id="last_name" name="last_name" class="form-control" ng-model="account.index.last_name" placeholder="Last Name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" class="form-control" ng-model="account.index.email" placeholder="Email">
+				</div>
+
+				<div class="text-center form-group">
+					<button type="submit" class="btn btn-large btn-primary">GO</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+
+</div>

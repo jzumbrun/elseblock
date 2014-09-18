@@ -1,0 +1,14 @@
+.alerts{
+	position: absolute;
+	z-index: 5000;
+	width: 100%;
+}
+
+.alert{
+	margin-bottom: 1px;
+	border-radius: 0 !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+	margin-right: 0px;
+}

@@ -1,0 +1,32 @@
+{
+    
+    "db": {
+        "host": "elseblock-change-me",
+        "database": "production"
+    },
+	
+	"secret": "elseblock-change-me",
+	
+	"open_paths": ["/", "/signin", "/signup", "/forgot", "/reset"],
+	
+    "bcrypt": {
+        "difficulty": 8
+    },
+	
+	"mailgun": {
+		"key": "key-change-me",
+		"from": "App Support <support@elseblock-change-me.com>",
+		"domain": "elseblock-change-me.mailgun.org"
+	},
+	
+	"js" : [
+		  "app/js/modules/**/*.js",
+		  "app/js/directives/**/*.js",
+		  "app/js/filters/**/*.js",
+		  "app/js/libraries/**/*.js",
+		  "app/js/controllers/app_controller.js",
+		  "app/js/controllers/auth_controller.js",
+		  "app/js/models/auth_model.js",
+		  "app/js/languages/**/*.js"
+		]
+}

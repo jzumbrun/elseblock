@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: public/app/templates/auth/signin.html public/app/templates/auth/signup.html
+msgid "email"
+msgstr "Email"
+
+#: public/app/templates/auth/signup.html
+msgid "first_name"
+msgstr "First Name"
+
+#: public/app/templates/auth/forgot.html
+msgid "forgot_password"
+msgstr "Forgot Password"
+
+#: public/app/templates/auth/signin.html
+msgid "forgot_your_password"
+msgstr "Forgot Your Password"
+
+#: public/app/templates/auth/forgot.html public/app/templates/auth/reset.html
+msgid "go"
+msgstr "Go"
+
+#: public/app/templates/auth/signup.html
+msgid "last_name"
+msgstr "Last Name"
+
+#: public/app/templates/auth/reset.html
+msgid "new_password"
+msgstr "New Password"
+
+#: public/app/templates/auth/signin.html public/app/templates/auth/signup.html
+msgid "password"
+msgstr "Password"
+
+#: public/app/templates/auth/reset.html
+msgid "reset_your_password"
+msgstr "Reset Your Password"
+
+#: public/app/templates/auth/forgot.html
+msgid "send_reset_link_to"
+msgstr "Send Reset Link To"
+
+#: public/app/templates/auth/signin.html
+msgid "signin_to_pickup_gamer"
+msgstr "Signin To Pickup Gamer"
+
+#: public/app/templates/auth/signin.html public/app/templates/auth/signup.html
+msgid "signin"
+msgstr "Signin"
+
+#: public/app/templates/auth/signin.html public/app/templates/auth/signup.html
+msgid "signup"
+msgstr "Signup"
+
+#: public/app/templates/auth/signup.html
+msgid "signup_to_join_pickup_gamer"
+msgstr "Signup To Join Pickup Gamer"

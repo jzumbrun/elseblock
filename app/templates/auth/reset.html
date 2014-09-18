@@ -1,0 +1,19 @@
+<div class="row" ng-controller="AuthController">
+	<h3 class="col-md-12 text-center" translate>reset_your_password</h3>
+
+	<div class="col-xs-offset-2 col-xs-8 col-md-offset-5 col-md-2">
+		<form ng-submit="reset()" class=" form-horizontal" autocomplete="off">
+			<fieldset>
+				<div class="form-group">
+					<label for="password" translate>new_password</label>
+					<input type="password" id="password" name="password" class="form-control" ng-model="auth.reset.password" >
+				</div>
+				<input type="hidden" name="email" ng-model="auth.reset.email" >
+				<input type="hidden" name="reset_password" ng-model="auth.reset.reset_password" >
+				<div class="text-center form-group">
+					<button type="submit" class="btn btn-primary" translate>go</button>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+</div>

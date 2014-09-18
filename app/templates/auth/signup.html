@@ -1,0 +1,31 @@
+<div class="row" ng-controller="AuthController">
+	<h3 class="col-md-12 text-center" translate>signup_to_join_pickup_gamer</h3>
+
+	<div class="col-xs-offset-2 col-xs-8 col-md-offset-5 col-md-2">
+		<form name="userForm" ng-submit="signup()" class="signin form-horizontal" novalidate autocomplete="off">
+			<fieldset>
+				<div class="form-group">
+					<label for="first_name" translate>first_name</label>
+					<input type="text" required id="first_name" name="first_name" class="form-control" ng-model="auth.signup.first_name" >
+				</div>
+				<div class="form-group">
+					<label for="last_name" translate>last_name</label>
+					<input type="text" id="last_name" name="last_name" class="form-control" ng-model="auth.signup.last_name" >
+				</div>
+				<div class="form-group">
+					<label for="email" translate>email</label>
+					<input type="email" id="email" name="email" class="form-control" ng-model="auth.signup.email" >
+				</div>
+				<div class="form-group">
+					<label for="password" translate>password</label>
+					<input type="password" id="password" name="password" class="form-control" ng-model="auth.signup.password" >
+				</div>
+				<div class="text-center form-group">
+					<button type="submit" class="btn btn-large btn-primary" translate>signup</button>&nbsp; or&nbsp;
+					<a href="/#!/signin" class="show-signup" translate>signin</a>
+				</div>
+			</fieldset>
+		</form>
+	</div>
+
+</div>

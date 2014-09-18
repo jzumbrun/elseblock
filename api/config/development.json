@@ -1,0 +1,7 @@
+{
+	
+    "db": {
+        "host": "elseblock-change-me",
+        "database": "development"
+    }
+}

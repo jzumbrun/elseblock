@@ -1,0 +1,53 @@
+<div class="navbar-wrapper">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="alerts">
+            <alert ng-repeat="message in messages" type="{{message.type}}" close="closeMessage($index)">{{message.body}}</alert>
+        </div>
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#!/">}else{</a>
+        </div>
+        <div class="collapse navbar-collapse" ng-class="{'in':!navCollapsed}">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#!/">Home</a>
+                </li>
+                <li><a href="#about">About</a>
+                </li>
+                <li><a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li ng-if="auth.user" class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">{{auth.user.first_name}}<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+
+                        <li ng-if="hasRole('admin')"><a href="/#!/admin">Admin</a>
+                        </li>
+                        <li ng-if="hasRole('admin')" class="divider"></li>
+
+                        <li><a href="/#!/profile" translate>profile</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="/#!/account" translate>account</a>
+                        </li>
+                        <li><a href="/#!/account/password" translate>password</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="" ng-click="signout()" translate>signout</a>
+                        </li>
+                    </ul>
+                </li>
+                <li ng-if="!auth.user" class="pull-right"><a href="#!/signin" translate>signin</a>
+                </li>
+                <li ng-if="!auth.user" class="pull-right"><a href="#!/signup" translate>signup</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: public/app/templates/auth/signin.html
+#: public/app/templates/auth/signup.html
+msgid "email"
+msgstr ""
+
+#: public/app/templates/auth/signup.html
+msgid "first_name"
+msgstr ""
+
+#: public/app/templates/auth/signin.html
+msgid "forgot_your_password"
+msgstr ""
+
+#: public/app/templates/auth/forgot.html
+#: public/app/templates/auth/reset.html
+msgid "go"
+msgstr ""
+
+#: public/app/templates/auth/signup.html
+msgid "last_name"
+msgstr ""
+
+#: public/app/templates/auth/reset.html
+msgid "new_password"
+msgstr ""
+
+#: public/app/templates/auth/signin.html
+#: public/app/templates/auth/signup.html
+msgid "password"
+msgstr ""
+
+#: public/app/templates/auth/reset.html
+msgid "reset_your_password"
+msgstr ""
+
+#: public/app/templates/auth/forgot.html
+msgid "send_reset_link_to"
+msgstr ""
+
+#: public/app/templates/auth/signin.html
+msgid "signin_to_pickup_gamer"
+msgstr ""
+
+#: public/app/templates/auth/signin.html
+#: public/app/templates/auth/signup.html
+msgid "signin"
+msgstr ""
+
+#: public/app/templates/auth/signin.html
+#: public/app/templates/auth/signup.html
+msgid "signup"
+msgstr ""
+
+#: public/app/templates/auth/signup.html
+msgid "signup_to_join_pickup_gamer"
+msgstr ""
